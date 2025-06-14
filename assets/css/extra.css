@@ -1,0 +1,10 @@
+.avatar-img,
+.home-avatar img,
+.author-avatar img {
+  border-radius: 50% !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  border: 2px solid #fff;
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+} 

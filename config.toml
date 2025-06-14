@@ -1,0 +1,38 @@
+baseURL = "https://www.sunchendong.xyz/"
+languageCode = "zh-cn"
+title = "孙晨东的博客"
+theme = "PaperMod"
+
+[params]
+  author = "孙晨东"
+  description = "孙晨东，杭州电子科技大学毕业，超聚变数字技术有限公司高级工程师，专注技术干货与有趣内容分享。"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+
+  [params.homeInfoParams]
+    Title = "你好，我是孙晨东"
+    Content = "一枚程序员，毕业于杭州电子科技大学，现任超聚变数字技术有限公司高级工程师。热爱技术，专注干货分享，偶尔也会整点有趣的内容！"
+    image = "/images/avatar.png"
+
+  socialIcons = [
+    { name = "github", url = "https://github.com/chendongsun" },
+    { name = "email", url = "mailto:sunchend@outlook.com" }
+  ]
+  defaultTheme = "auto"
+  customCSS = ["css/extra.css"]
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 2 
